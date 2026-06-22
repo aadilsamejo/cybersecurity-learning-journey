@@ -1,0 +1,108 @@
+# Networking Lab 05 - Router Connecting Two Different Networks
+
+## Objective
+
+The purpose of this lab was to understand how a router enables communication between devices located on different networks.
+
+---
+
+## Network Topology
+
+PC1 → Switch1 → Router → Switch2 → PC2
+
+---
+
+## Devices Used
+
+* 1 Router
+* 2 Switches
+* 2 PCs
+* Copper Straight Through Cables
+
+---
+
+## IP Address Configuration
+
+### PC1
+
+* IP Address: 192.168.1.10
+* Subnet Mask: 255.255.255.0
+* Default Gateway: 192.168.1.1
+
+### Router Interface G0/0
+
+* IP Address: 192.168.1.1
+* Subnet Mask: 255.255.255.0
+
+### Router Interface G0/1
+
+* IP Address: 192.168.2.1
+* Subnet Mask: 255.255.255.0
+
+### PC2
+
+* IP Address: 192.168.2.10
+* Subnet Mask: 255.255.255.0
+* Default Gateway: 192.168.2.1
+
+---
+
+## Router Configuration Commands
+
+enable
+
+configure terminal
+
+interface gigabitEthernet 0/0
+
+ip address 192.168.1.1 255.255.255.0
+
+no shutdown
+
+interface gigabitEthernet 0/1
+
+ip address 192.168.2.1 255.255.255.0
+
+no shutdown
+
+---
+
+## Verification
+
+From PC1 Command Prompt:
+
+ping 192.168.2.10
+
+Result:
+
+Reply received successfully from PC2.
+
+No packet loss was observed.
+
+---
+
+## What I Learned
+
+* A router connects different networks together.
+* Devices on different networks cannot communicate without a router.
+* The router uses IP addresses to forward packets between networks.
+* The Default Gateway tells a device where to send traffic destined for another network.
+* Proper IP addressing is required for successful communication.
+
+---
+
+## Key Concept
+
+Same Network:
+
+* Devices can communicate directly.
+
+Different Networks:
+
+* A router is required to route packets between networks.
+
+---
+
+## Conclusion
+
+In this lab, I successfully configured a router and established communication between two different networks. This helped me understand the basic concept of routing and the importance of the default gateway in network communication.
