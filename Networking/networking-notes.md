@@ -1,23 +1,24 @@
-# Networking Notes
-
 ## Topics Completed
 
 - History of Networking
 - What is Networking
-- Network Types
+- Networking Attacks
+- Types of Networks
 - Network Devices
 - IP Address
 - MAC Address
 - IPv4 vs IPv6
 - Public vs Private IP
 - Static vs Dynamic IP
+- Classful Addressing
+- CIDR Notation
 
-## Packet Tracer Labs Completed
+---
 
-✅ Lab 01 - Basic LAN Communication
+## Practical Labs Completed
 
-✅ Lab 02 - Three PC Network
-
-✅ Lab 03 - Duplicate IP Experiment
-
-✅ Lab 04 - Different Networks Communication Failure
+- Lab 01 - Basic Communication Between Two PCs
+- Lab 02 - Switch Communication
+- Lab 03 - IP Address Assignment
+- Lab 04 - Communication Between Different Networks (Without Router)
+- Lab 05 - Router Communication Between Different Networks
