@@ -14,6 +14,10 @@
 - ✅ Static vs Dynamic IP
 - ✅ Classful Addressing
 - ✅ CIDR Notation
+  ✅ Subnetting
+- ✅ NAT
+- ✅ Protocols and Ports
+- ✅ OSI Model
 
 ---
 
