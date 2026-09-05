@@ -14,7 +14,7 @@
 - ✅ Static vs Dynamic IP
 - ✅ Classful Addressing
 - ✅ CIDR Notation
-  ✅ Subnetting
+   ✅ Subnetting
 - ✅ NAT
 - ✅ Protocols and Ports
 - ✅ OSI Model
