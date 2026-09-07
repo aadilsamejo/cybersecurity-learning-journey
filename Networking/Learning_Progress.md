@@ -18,7 +18,8 @@
 - ✅ NAT
 - ✅ Protocols and Ports
 - ✅ OSI Model
-
+- ✅ TCP/IP Model
+- ✅ Data Encapsulation and Decapsulation
 ---
 
 ## Packet Tracer Labs
